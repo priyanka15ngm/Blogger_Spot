@@ -281,11 +281,23 @@ html {
     }
 }
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:400px) {
+    .logo img {
+        width: 135%;
+    }
     .section {
-        height: 936px;
+        height: 1100px;
     }
     .contact {
-        height: 600px;
+        height: 700px;
+    }
+    .text-center {
+        text-align: center;
+        padding-top: 59px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 42px;
+    }
+    .text-big {
+        font-size: 31px;
     }
 }
