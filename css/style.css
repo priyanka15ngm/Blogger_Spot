@@ -241,6 +241,11 @@ html {
     #search {
         width: 100%;
     }
+    .section {
+        height: 743px;
+        flex-direction: column-reverse;
+        max-width: 136%;
+    }
     .box-main {
         flex-direction: column-reverse;
     }
@@ -256,10 +261,6 @@ html {
     .v-class-resp {
         opacity: 0;
     }
-    .section {
-        flex-direction: column-reverse;
-        max-width: 136%;
-    }
     .text-big {
         text-align: center;
     }
@@ -272,10 +273,19 @@ html {
     .paras {
         flex-direction: column-reverse;
     }
-    .thumbnail img {
+    /* .thumbnail img {
         width: 130px;
-    }
+    } */
     .contact {
         height: 700px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .section {
+        height: 936px;
+    }
+    .contact {
+        height: 600px;
     }
 }
